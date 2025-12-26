@@ -1,0 +1,123 @@
+# Visual Studio 2015/2017/2019/2022
+**/.vs/
+*.sln
+*.suo
+*.opensdf
+*.sdf
+*.VC.db
+*.VC.opendb
+**/.vsconfig
+
+# Rider (JetBrains)
+**/.idea/
+*.sln.iml
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Fortran module files
+*.mod
+*.smod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+*.ipa
+
+# Debug files
+*.pdb
+*.ilk
+*.exp
+
+# Unreal Engine - 핵심 제외 폴더
+**/Binaries/*
+**/Build/*
+**/Intermediate/*
+**/Saved/*
+**/DerivedDataCache/*
+
+# 플러그인 빌드 파일
+**/Plugins/**/Binaries/*
+**/Plugins/**/Intermediate/*
+
+# 맵 빌드 데이터
+*_BuiltData.uasset
+
+# 에셋 소스 파일 (선택적)
+**/SourceArt/**/*.png
+**/SourceArt/**/*.tga
+
+# Xcode (Mac)
+*.xcodeproj
+*.xcworkspace
+
+# 로그 파일
+*.log
+
+# Crash reports
+*.dmp
+
+# 백업 파일
+*.tmp
+*.bak
+*.swp
+*~
+
+# Mac
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Thumbnails
+._*
+
+# Files that might appear in the root
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+# Linux
+*~
+.fuse_hidden*
+.directory
+.Trash-*
+.nfs*
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+*.lnk
+
+# 선택: StarterContent 제외 (용량 큰 경우)
+# **/StarterContent/HDRI/*
+# **/StarterContent/Maps/*
